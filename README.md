@@ -9,4 +9,14 @@ A set of hands-on exericses are provided.
 The main exercises use the [JetClass](https://zenodo.org/records/6619768) dataset, focusing on the classificaton of jet classes using DNNs on high-level jet features and transformers on low-level jet constituents.  See below
 A set of introductory exercises aimed at those with less ML (and specifically PyTorch) experience can be found at [Intro2DNN4Physics](https://github.com/els285/Intro2NN4Physics/tree/main/Exercises).
 
-## Main Exercises
+
+## Main Exercises
+Two datasets are available:
+* High-level: Skimmed JetClass dataset (.h5 format) with high-level jet features (kinematics and Nconstituents) available [here](https://cernbox.cern.ch/s/HAsUVTx60u7L7TY/).
+* Low-level: Skimmed JetClass dataset (.h5 format) with low-level constituent kinematics available [here](https://cernbox.cern.ch/s/4rtGlo1RlFvUNwz).
+
+Each dataset contains a `signal` and a `background` class. The intended goal is to train a DNN on the high-level jet features, and then show how a transformer trained on the low-level features can out-perform the simpler DNN.
+
+Walk-through iPython notebooks are made available:
+* [JetClassificationWithDNN]
+* [JetConstituentTransformer]
