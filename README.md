@@ -18,5 +18,5 @@ Two datasets are available:
 Each dataset contains a `signal` and a `background` class. The intended goal is to train a DNN on the high-level jet features, and then show how a transformer trained on the low-level features can out-perform the simpler DNN.
 
 Walk-through iPython notebooks are made available:
-* [JetClassificationWithDNN]
+* [JetClassificationWithDNN](https://github.com/els285/RAEngHEPTutorial/blob/main/JetClassificationWithDNN_public.ipynb)
 * [JetConstituentTransformer]
