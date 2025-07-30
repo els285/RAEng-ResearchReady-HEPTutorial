@@ -18,5 +18,7 @@ Two datasets are available:
 Each dataset contains a `signal` and a `background` class. The intended goal is to train a DNN on the high-level jet features, and then show how a transformer trained on the low-level features can out-perform the simpler DNN.
 
 Walk-through iPython notebooks are made available:
-* [JetClassificationWithDNN](https://github.com/els285/RAEngHEPTutorial/blob/main/JetClassificationWithDNN_public.ipynb)
-* [JetConstituentTransformer](https://github.com/els285/RAEngHEPTutorial/blob/main/JetConstituentTransformer_public.ipynb)
+* [JetClassificationWithDNN](https://github.com/els285/RAEngHEPTutorial/blob/main/JetClassificationWithDNN_public.ipynb). Link to Colab [here](https://colab.research.google.com/drive/1Oq1hIkK740ljFWtiUvHb407FawQwvNYp?usp=sharing).
+* [JetConstituentTransformer](https://github.com/els285/RAEngHEPTutorial/blob/main/JetConstituentTransformer_public.ipynb). Link to Colab [here](https://colab.research.google.com/drive/14eGFIv7xFL_jwJkyaSD3WI4sTl3-0OA8?usp=sharing).
+
+It's recommended that you download these and then upload to your own Colab space. Alternatively you can work on your own machine. Or on CSF, but I am not sure how to run an iPython notebook on a GPU instance on CSF - maybe you know.
