@@ -19,4 +19,4 @@ Each dataset contains a `signal` and a `background` class. The intended goal is 
 
 Walk-through iPython notebooks are made available:
 * [JetClassificationWithDNN](https://github.com/els285/RAEngHEPTutorial/blob/main/JetClassificationWithDNN_public.ipynb)
-* [JetConstituentTransformer]
+* [JetConstituentTransformer](https://github.com/els285/RAEngHEPTutorial/blob/main/JetConstituentTransformer_public.ipynb)
